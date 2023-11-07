@@ -8,9 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
-        Test to update automatic deployment{children}
-      </body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   )
 }
